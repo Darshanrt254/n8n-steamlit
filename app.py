@@ -121,7 +121,7 @@ if user_message:
     with st.spinner("Thinking..."):
 
         response = requests.post(
-            "https://darshan-rt25406.app.n8n.cloud/webhook-test/851de76e-fdc4-4ebb-b3d0-31e5263d10b0",
+            "https://darshan-rt25406.app.n8n.cloud/webhook/851de76e-fdc4-4ebb-b3d0-31e5263d10b0",
             json={"message": user_message}
         )
 
